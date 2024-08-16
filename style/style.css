@@ -83,7 +83,7 @@ background: rgb(230, 83, 60);
 .banner-content{
     border: 3px solid red;
    
-width: 1340px;
+width: 1300px;
 height: 780px;
 background-image:url(/images/Images\ 2.png);
 background-repeat: no-repeat;
@@ -255,11 +255,15 @@ text-align: left;
 
 .container{
     
-    border: 3px solid red;
+    border: 3px solid rgb(185, 219, 11);
 width: 1310px;
 height: 4650px;
 background: rgb(0, 0, 0);
-margin: 10px auto;
+margin: 0px auto;
+display: flex;
+flex-direction: column;
+
+align-items: center;
 }
 
 
@@ -277,12 +281,307 @@ margin: 10px auto;
 /* change habit section design start */
 .habit{
     border: 3px solid red;
-/* Frame 26 */
-position: absolute;
+
 width: 1044px;
 height: 452px;
-left: 198px;
-top: 815px;
+
+margin: 40px auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.text-habit{
+    border: 3px solid red;
+    width: 671px;
+height: 120px;
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+
+margin: 58px 0px;
+}
+
+.text-habit h2{
+    border: 3px solid red;
+width: 476px;
+height: 58px;
+margin: 10px 5px 0px;
+color: rgb(255, 255, 255);
+
+font-size: 40px;
+font-weight: 900;
+}
+
+
+
+.text-habit p{
+    border: 3px solid red; 
+width: 671px;
+height: 48px;
+
+
+margin: 10px 0px;
+color: rgba(255, 255, 255, 0.5);
+
+
+text-align: center; 
+}
+/* pics-habit design start */
+
+.pics-habit{
+
+    /* Frame 25 */
+position: static;
+width: 1044px;
+height: 274px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 40;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 58px 0px;
+
+}
+.pics-habit img{
+    border-radius: 50%;
+
+    
+}
+
+
+.pic-habit h2{
+    /* Movement */
+position: static;
+width: 93px;
+height: 22px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 6;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 6px 0px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.pic-habit p{
+    /* We believe fitness should be accessible to everyone */
+position: static;
+width: 231px;
+height: 36px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 6;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 6px 0px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+
+
+
+
+/* pics-habit design end */
+/* change habit section design end */
+
+
+
+/* Run an Extra Mile Easily design start */
+.run-mile{
+    /* Frame 27 */
+    border: 3px solid rgb(57, 6, 242);
+position: static;
+width: 1060px;
+height: 371px;
+/* Inside Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 62px auto;
+border-radius: 18px;
+
+background: rgb(34, 34, 34);
+
+
+}
+.run-text{
+    /* Frame 40 */
+
+
+
+}
+.run-text h3{
+    /* Run an Extra Mile Easily */
+position: static;
+width: 443px;
+height: 116px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 14px 0px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.run-text p{
+
+    /* We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts. */
+position: static;
+width: 443px;
+height: 72px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 14px 0px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+.run-text button{
+    /* Button */
+position: static;
+width: 224px;
+height: 54px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+gap: 10;
+padding: 16px 40px 16px 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 34px 0px;
+border-radius: 42px;
+
+background: rgb(230, 83, 60);
+}
+.btnrun{
+    /* Join Now */
+position: static;
+width: 81px;
+height: 22px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+gap: 10;
+padding: 16px 40px 16px 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+}
+.run-mile .run-pic img{
+ 
+border: 3px solid red;
+width: 366px;
+height: 312px;
+margin: 20px auto;
+border-radius: 18px;
+object-fit: inherit;
+
+}
+
+
+/* Run an Extra Mile Easily design end */
+
+/* <!-- bmi section start -->
+
+
+          <!-- bmi section end --> */
+
+
+          /* Meet Our Team section design start */
+.meet{
+    border: 3px solid red;
+    /* Frame 52 */
+position: static;
+width: 1060px;
+height: 782px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
@@ -292,12 +591,33 @@ gap: 58;
 padding: 0px;
 
 
+/* Inside Auto Layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 88px 0px;
+}
+.meet-text{
+    border: 3px solid red;
+    /* Frame 38 */
+position: static;
+width: 671px;
+height: 120px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 14;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 58px 0px;
 }
 
 
-
-
-
-
-
-/* change habit section design end */
+          /* Meet Our Team section design end */
