@@ -9,15 +9,15 @@
 body{
     margin: 0;
     padding: 0 auto;
+    width: auto;
+    border: 4px solid blue;
 }
 
 /* shared styles */
 .display-flex{
     display: flex;
 }
-.bg{
 
-}
 
 /* header styles */
 
@@ -54,9 +54,7 @@ align-items: center;
 
 
 }
-.nav-links{
-   
-}
+
 .nav-item{
     list-style: none;
     margin: 0px 47px;
@@ -443,12 +441,7 @@ background: rgb(34, 34, 34);
 
 
 }
-.run-text{
-    /* Frame 40 */
 
-
-
-}
 .run-text h3{
     /* Run an Extra Mile Easily */
 position: static;
