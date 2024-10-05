@@ -562,10 +562,125 @@ object-fit: inherit;
 
 /* Run an Extra Mile Easily design end */
 
-/* <!-- bmi section start -->
+ /* bmi section start */
+        .bmi{
+            
+border: 5px solid red;
+width: 671px;
+height: 120px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 88px 0px;
+}
+.bmi h1{
+
+     /* BMI Calculator */
+position: static;
+width: 353px;
+height: 58px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
 
 
-          <!-- bmi section end --> */
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 14px 0px;
+
+
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.bmi p{
+  /* We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. */
+position: static;
+width: 671px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 14px 0px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left; 
+}
+/* bmi-chart-container start */
+.chart h3{
+    /* BMI Calculator Chart */
+position: static;
+width: 443px;
+height: 34px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 14px 0px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 28px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.table{
+   
+    color: white;
+    /* Group 78 */
+
+width: 310px;
+height: 216px;
+left: 189px;
+right: 941px;
+top: 138px;
+bottom: 133px;
+
+}
+          /* <!-- bmi section end --> */ */
 
 
           /* Meet Our Team section design start */
