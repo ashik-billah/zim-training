@@ -10,8 +10,16 @@ body{
     margin: 0;
     padding: 0 auto;
     width: auto;
-    border: 4px solid blue;
+    border: 4px solid rgb(240, 252, 10);
 }
+*{
+    margin: 0;
+  }
+  .container{
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
 
 /* shared styles */
 .display-flex{
@@ -22,7 +30,7 @@ body{
 /* header styles */
 
 header{
-    border: 3px solid red;
+    
 width: 1340px;
 height: 615px;
 left: 0;
@@ -43,132 +51,116 @@ text-align: left;
 /* nav related styles */
 
 .nav-bar{
-
-
-
-
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-
-
-
+    padding: 0 80px;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
-.nav-item{
-    list-style: none;
-    margin: 0px 47px;
-}
+ul {
+    align-items: center;
+    gap: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 6px;
+    margin: 0 10px;
+  }
+
 .nav-link{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-
+text-decoration: none;
+color: rgb(255, 255, 255);
 font-size: 18px;
 font-weight: 400;
 }
+
 .btn{
 color: rgb(255, 255, 255);
 padding: 8px 20px 8px 20px;
-
-
 margin: 0px 47px;
 border-radius: 46px;
-
 background: rgb(230, 83, 60);
 }
 
 /* banner section start */
+
+
+.banner {
+  
+    padding: 0px 80px;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
 .banner-content{
-    border: 3px solid red;
-   
-width: 1300px;
-height: 780px;
-background-image:url(/images/Images\ 2.png);
-background-repeat: no-repeat;
-
-
-background-position: right;
-display: flex;
-justify-content: space-between;
-
+    width: 40%;
 }
 
 .get-intro{
-    border: 3px solid red;
-    width: 599.05px;
-    height: 440px;
-    display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 71;
-padding: 0px;
+    
+   
 }
+#shape{
+    font-family: "Miama";
+    font-size: 4.2rem;
+    font-weight: 200;
+  }
 .get-intro h1{
-    border: 3px solid red;
-width: 520px;
-height: 282px;
+   
+    font-size: 4.2rem;
+    color: white;
+    margin-bottom: 28px;
+    line-height: 70px;
+    gap: 40px;
 
-gap: 28;
-padding: 0px;
-margin: 15px auto;
-
-color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 78px;
-font-weight: 900;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: left;
 }
 
 .get-intro p{
 
-    width: 520px;
-    height: 48px;
-
-    margin: 15px auto;
     color: rgba(255, 255, 255, 0.5);
-
-
-letter-spacing: 0.5px;
+    font-size: 1rem;
+    font-weight: 400;
 
 }
 /* banner btn design */
 .btns{
-    border: 3px solid red;
-  
-    position: static;
-    width: 462px;
-    height: 54px;
-    
-    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
 }
 .btn1{
-    border: 3px solid red;
-    width: 224px;
-    height: 54px;
+    background: rgb(230, 83, 60);
     border-radius: 42px;
-background: rgb(230, 83, 60);
-color: rgb(255, 255, 255);
-padding: 16px 40px 16px 40px;
-font-size: 18px;
-font-weight: 400;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
 }
 .btn2{
     
-    width: 224px;
-    height: 54px;
-    border-radius: 42px;
-
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
     color: rgb(255, 255, 255);
-    background-color: black;
     border: 1px solid rgb(255, 255, 255);
-padding: 16px 40px 16px 40px;
-font-size: 18px;
-font-weight: 400;
+    border-radius: 42px;
+    background: transparent;
+    cursor: pointer;
+  
+}
+.btn1, .btn2{
+    width: 200px;
+  margin: 10px; 
 }
 
+  
 /* two box design */
 .fiveh{
     border: 3px solid red;
