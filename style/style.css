@@ -160,86 +160,62 @@ background: rgb(230, 83, 60);
   margin: 10px; 
 }
 
+/* header image design */
+.image-container {
+    border: 4px solid red;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .banner-image{
+    margin-left: 60px;
+  }
   
-/* two box design */
-.fiveh{
-    border: 3px solid red;
-    width: 193px;
-height: 98px;
-left: 1907px;
-top: 260px;
-box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-}
-.fiveh h2{
-    border: 3px solid red;
-    width: 116px;
-height: 40px;
-left: 1131px;
-
-color: rgb(255, 255, 255);
-font-size: 40px;
-font-weight: 900;
-
-letter-spacing: 1px;
-
-}
-.fiveh p{
-    border: 3px solid red;
-    width: 146px;
-height: 20px;
-left: 1131px;
-
-color: rgba(255, 255, 255, 0.65);
-color: rgba(255, 255, 255, 0.65);
-
-font-size: 12px;
-font-weight: 100;
-
-letter-spacing: 1px;
-
-}
-
-.threeh{
-    border: 3px solid rgb(11, 7, 224);
+  .tutorial {
+    position: absolute;
+    top: 445px;
+    left: 80px;
     width: 206px;
-height: 96px;
-left: 764px;
-top: 556px;
-}
-.threeh h2{
-    border: 3px solid red;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 10px;
+    cursor: pointer;
+  }
+  .tutorial h3 {
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+  }
+  #play-icon{
+    color: rgb(230, 83, 60);
+    transform: scale(2);
+  }
+  
+  .video {
     position: absolute;
-width: 68px;
-height: 24px;
-left: 839px;
-top: 576px;
-color: rgb(250, 250, 249);
-font-family: Inter;
-font-size: 24px;
-font-weight: 900;
-line-height: 24px;
-letter-spacing: 0.3px;
-text-align: left;
-}
-.threeh p{
-    border: 3px solid red;
-    position: absolute;
-    width: 108px;
-    height: 24px;
-    left: 839px;
-    top: 608px;
-    color: rgba(239, 237, 232, 0.65);
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.5px;
-text-align: left;
-}
+    top: 150px;
+    right: 10px;
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .video h1 {
+    color: rgb(250, 250, 249);
+  }
 /* main section design start */
 
 
